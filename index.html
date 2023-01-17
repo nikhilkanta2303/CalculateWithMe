@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <marquee behavior="" direction="left">Developed and Designed by Nikhil Kanta | 2023 &copy CalculateWithMe</marquee>
+<table cellspacing="8">
+    <tr>
+        <td colspan="4">
+            <p style="color: whitesmoke;">CalculateWithMe</p>
+            <input type="text" id="exp"></td>
+        </td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <td colspan="2"><button id="ac" onclick="clr()">AC</button></td>
+        <td colspan="2"><button id="eq" onclick="evalte()">=</td>
+    </tr>
+    
+    <tr>
+        <td><button id="button7" onclick="expr(this)">7</button></td>
+        <td><button id="button8" onclick="expr(this)">8</button></td>
+        <td><button id="button9" onclick="expr(this)">9</button></td>
+        <td><button id="button+" onclick="expr(this)">+</button></td>
+    </tr>
+    <tr>
+        <td><button id="button4" onclick="expr(this)">4</button></td>
+        <td><button id="button5" onclick="expr(this)">5</button></td>
+        <td><button id="button6" onclick="expr(this)">6</button></td>
+        <td><button id="button-" onclick="expr(this)">-</button></td>
+    </tr>
+    <tr>
+        <td><button id="button1" onclick="expr(this)">1</button></td>
+        <td><button id="button2" onclick="expr(this)">2</button></td>
+        <td><button id="button3" onclick="expr(this)">3</button></td>
+        <td><button id="button+" onclick="expr(this)">*</button></td>
+    </tr>
+    <tr>
+        <td><button id="button." onclick="expr(this)">.</button></td>
+        <td><button id="button0" onclick="expr(this)">0</button></td>
+        <td><button id="button%" onclick="expr(this)">%</button></td>
+        <td><button id="button/" onclick="expr(this)">/</button></td>
+    </tr>
+</table>
+<script src="code.js"></script>
+</body>
+</html>
